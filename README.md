@@ -10,3 +10,6 @@ Shooting Incidents is a point dataset for Shot Spotter gunshot detection that us
 District of Columbia Wards is a dataset that contains the polygons that represent the boundaries of DC from the 2012 election. Link: https://opendata.dc.gov/datasets/ward-from-2012
 Gun Crimes is the point dataset selected from all the gun methods from the Crimes Incidents in 2017 dataset, which contains a subset of locations and attributes of incidents reported in the Analytical Services Application crime report database by the MPD. Link: https://opendata.dc.gov/datasets/crime-incidents-in-2017
 In order to create my maps I used the field calculator to create two formulas: the number of gun crimes or shooting incidents per person, then multiply by 10,000 to a new field named POPDEN. Then used the style tab to graduate my POPDEN layer by their classification using an equal interval mode. Then in map editor mode completed my map with the appropriate map symbols(Title, legend, north arrow, etc.).  
+The number of gun crimes committed per 10,000 peoplein 2017 in each ward map:
+https://raw.githubusercontent.com/iokojie1/682_Final/master/Gun%20Crimes%20per%20pop.jpg
+The number of shooting incidents detected by ShotSpotter per 10,000 people in 2017 in each ward map:
