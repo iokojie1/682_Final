@@ -13,3 +13,5 @@ In order to create my maps I used the field calculator to create two formulas: t
 The number of gun crimes committed per 10,000 peoplein 2017 in each ward map:
 https://raw.githubusercontent.com/iokojie1/682_Final/master/Gun%20Crimes%20per%20pop.jpg
 The number of shooting incidents detected by ShotSpotter per 10,000 people in 2017 in each ward map:
+https://raw.githubusercontent.com/iokojie1/682_Final/master/Shot%20Spotter%20Gun%20Shot%20per%20POP.jpg
+
