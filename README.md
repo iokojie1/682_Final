@@ -14,4 +14,32 @@ The number of gun crimes committed per 10,000 peoplein 2017 in each ward map:
 https://raw.githubusercontent.com/iokojie1/682_Final/master/Gun%20Crimes%20per%20pop.jpg
 The number of shooting incidents detected by ShotSpotter per 10,000 people in 2017 in each ward map:
 https://raw.githubusercontent.com/iokojie1/682_Final/master/Shot%20Spotter%20Gun%20Shot%20per%20POP.jpg
+List showing the number of gun crimes committed per 10,000 people in 2017 in each ward:
+Ward 1	212.9
+Ward 2	206.8
+Ward 3	200.9
+Ward 4	209.2
+Ward 5	213.3
+Ward 6	207.9
+Ward 7	220.9
+Ward 8	215.2
+List showing the number of shooting incidents detected by ShotSpotter per 10,000 people in 2017 in each ward: 
+Ward 1	4599.4
+Ward 2	4468.4
+Ward 3	4341.4
+Ward 4	4519.8
+Ward 5	4608.9
+Ward 6	4492.2
+Ward 7	4773.4
+Ward 8	4649.3
+
+Automation
+
+Describes the functionality of your Python code
+Contains at least three instances of quoted code
+
+Results
+
+The wards that I recommend to becovered by an expanded gunshot detection network are Ward 1, 4, 5, 6, 7, 8.
+My biggest limitation in my analysis is the population data; since it is only from 2010, the analysis maybe skewed since it was recorded almost a decade ago. Another limitation is just human error, when I first started I thought the gun crimes total was around 33,000 when in actually the total is 1584. Which is drastically different then what was first recorded, so I am hoping there are no more errors like that in my analysis. 
 
