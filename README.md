@@ -14,7 +14,9 @@ The number of gun crimes committed per 10,000 peoplein 2017 in each ward map:
 https://raw.githubusercontent.com/iokojie1/682_Final/master/Gun%20Crimes%20per%20pop.jpg
 The number of shooting incidents detected by ShotSpotter per 10,000 people in 2017 in each ward map:
 https://raw.githubusercontent.com/iokojie1/682_Final/master/Shot%20Spotter%20Gun%20Shot%20per%20POP.jpg
+
 List showing the number of gun crimes committed per 10,000 people in 2017 in each ward:
+
 Ward 1	212.9
 Ward 2	206.8
 Ward 3	200.9
@@ -23,7 +25,9 @@ Ward 5	213.3
 Ward 6	207.9
 Ward 7	220.9
 Ward 8	215.2
+
 List showing the number of shooting incidents detected by ShotSpotter per 10,000 people in 2017 in each ward: 
+
 Ward 1	4599.4
 Ward 2	4468.4
 Ward 3	4341.4
@@ -35,8 +39,21 @@ Ward 8	4649.3
 
 Automation
 
-Describes the functionality of your Python code
-Contains at least three instances of quoted code
+My code is really simple and uses one for loop to calcaute both parts of my analysis. First used the get.features() method to call the features in my Wards layer. 
+
+"c = iface.addVectorLayer(wards, "Wards", "ogr")
+
+c_feature=c.getFeatures() #request feature "
+
+Next created the for loop method to create a simple forumla for the analysis, earlier used the featureCount() method to count the amount of gun crimes and/or shooting incidences. Then used the print() method to print my results. 
+
+"a_feature=a.featureCount() #count amount of gun crimes 
+
+g = (a_feature/e)*10000 # calculate the number of gun crimes committed per 10,000 people in 2017 in each ward
+
+print("Gun crimes committed per 10,000 people in 2017 in", d, "is", g) #print the results"
+
+At first attempt for this analysis I tired using the processing.run("qgis:fieldcalculator") method since that the map was created in QGIS but the code had some errors and the results were only running the formula on the population for the 8th ward instead of all of them individually. 
 
 Results
 
